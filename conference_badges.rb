@@ -8,6 +8,6 @@ end
 def assign_rooms(speakers)
   speakers.each_with_index {
     |speaker,index|
-    return "Hello, #{speaker}! You'll be assigned to room #{index}!"
+    puts "Hello, #{speaker}! You'll be assigned to room #{index}!"
     }
 end
