@@ -19,10 +19,12 @@ def assign_rooms(speakers)
 end
 
 def printer
-  batch_badge_creator.each do|badge|
+  names = batch_badge_creator
+  names.each do|badge|
     puts "#{badge}"
   end
-  assign_rooms.each do|guest|
+  rroms =assign_rooms
+  rooms.each do|guest|
     puts "#{guest}"
   end
 end
