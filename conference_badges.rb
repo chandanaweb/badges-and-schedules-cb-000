@@ -8,7 +8,7 @@ def batch_badge_creator(names)
     speakers[index] = badge_maker(name)
     }
     return names
-
+  end
 end
 
 def assign_rooms(speakers)
