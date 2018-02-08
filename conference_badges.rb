@@ -3,6 +3,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
+
+
 end
 
 def assign_rooms(speakers)
@@ -11,4 +13,12 @@ def assign_rooms(speakers)
     speakers[index] = "Hello, #{speaker}! You'll be assigned to room #{index+1}!"
     }
     return speakers
+end
+
+def printer
+  batch_badge_creator.each do|badge|
+    puts "#{badge}"
+  end
+  assign_rooms.each do|guest|
+    puts "#{guest}"
 end
