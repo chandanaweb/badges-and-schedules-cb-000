@@ -23,10 +23,8 @@ def printer(attendees)
   names.each do|badge|
     puts "#{badge}"
   end
-  sleep(5)
   rooms =assign_rooms(attendees)
   rooms.each do|room|
     puts "#{room}"
-    sleep(0.1)
   end
 end
