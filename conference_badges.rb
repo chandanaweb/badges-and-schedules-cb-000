@@ -10,4 +10,5 @@ def assign_rooms(speakers)
     |speaker,index|
     speakers[index] = "Hello, #{speaker}! You'll be assigned to room #{index}!"
     }
+    return speakers
 end
