@@ -3,7 +3,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-
+  names.each_with_index {
+    |name,index|
+    speakers[index] = badge_maker(name)
+    }
+    return names
 
 end
 
