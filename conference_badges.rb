@@ -19,7 +19,7 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  attendees.each do|badge|
-    print  "#{badge}"
+  attendees.each do|attendee|
+    puts "#{attendee}"
   end
 end
