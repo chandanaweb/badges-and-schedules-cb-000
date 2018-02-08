@@ -24,4 +24,4 @@ def printer(attendees)
   end
 end
 
-printer(batch_badge_creator)
+printer = batch_badge_creator(names)
