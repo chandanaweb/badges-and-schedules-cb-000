@@ -21,4 +21,5 @@ def printer
   end
   assign_rooms.each do|guest|
     puts "#{guest}"
+  end
 end
