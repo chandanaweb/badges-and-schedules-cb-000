@@ -3,17 +3,21 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
+  list = []
   names.each_with_index {
     |name,index|
-    names[index] = badge_maker(name)
+    list[index] = badge_maker(name)
     }
+    return list
 end
 
 def assign_rooms(speakers)
+  rooms = []
   speakers.each_with_index {
     |speaker,index|
-    speakers[index] = "Hello, #{speaker}! You'll be assigned to room #{index+1}!"
+    rooms[index] = "Hello, #{speaker}! You'll be assigned to room #{index+1}!"
     }
+    return rooms
 end
 
 def printer(attendees)
