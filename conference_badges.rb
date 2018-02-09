@@ -7,7 +7,6 @@ def batch_badge_creator(names)
     |name,index|
     names[index] = badge_maker(name)
     }
-    printer(names)
     return names
 end
 
@@ -16,7 +15,6 @@ def assign_rooms(speakers)
     |speaker,index|
     speakers[index] = "Hello, #{speaker}! You'll be assigned to room #{index+1}!"
     }
-    printer(speakers)
     return speakers
 end
 
