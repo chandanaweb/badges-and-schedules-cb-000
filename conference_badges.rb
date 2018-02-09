@@ -23,4 +23,4 @@ def printer(attendees)
     puts "#{attendee}"
   end
 end
-printer(batch_badge_creator)
+printer(batch_badge_creator(attendees))
